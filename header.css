@@ -1,0 +1,151 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body, html {
+width: 100%;
+margin: 0;
+}
+
+#imgprincipal {
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.247);
+    opacity: 90;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    position: fixed; 
+
+    .contenedorlinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 60px;
+
+        .idiomas {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            padding: 0 28px;
+            gap: 60px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 45px;
+            font-family: Brandon_reg;
+            color: white;
+        }
+
+        .espacio {
+            gap: 20px;
+        }
+
+        .color {
+            color: #7E7E7E;
+
+        }
+
+        .registro {
+            display: grid;
+            grid-template-columns: 1fr 1px 1fr;
+            gap: 20px;
+            
+            a {
+                justify-self: center;
+            }
+
+            #barra {
+                width: 1px;
+                height: 100%;
+                background-color: white;
+            }
+        }
+    }
+}
+
+#logo {
+    margin-left: 100px;
+}
+
+#titulos {
+    position: absolute;
+    top: 100px;
+    margin-left: 7%;
+
+
+    #Uno {
+        font-size: 40px;
+        font-family: PFRegalDisplayPro-Regular;
+        font-weight: 45;
+        color: #B4B7B7;
+        margin-bottom: -10px;
+        margin-top: 205px;
+    }
+
+    #Dos {
+        font-size: 80px;
+        font-family: PFRegalDisplayPro-Regular;
+        font-weight: 45;
+        color: white;
+    }
+    
+    #button { 
+        background-color: transparent;
+        border: 1px solid;
+        border-color: white;
+        border-radius: 100px;
+        padding: 15px 75px;
+        color: white;
+        font-size: 30px;
+        font-weight: 45;
+        font-family: Brandon_reg;
+
+    }
+
+}
+
+#redes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto69px 25px 25px 25px 25px 25px;
+    width: 45px;
+    justify-items: center;
+    position: fixed;
+    top: 100px;
+
+    #follow {
+        text-justify: auto;
+    }
+    img {
+        display: block;
+        margin-top: 10px;
+    }
+
+    p {
+        transform: rotate(90deg);
+        display: inline-blck;
+        color: #7E7E7E;
+        font-size: 20px;
+        font-family: Brandon_reg;
+
+    }
+
+    .linea {
+        height: 75px;
+        width: 1px;
+        border-left: 2px solid;
+        margin-top: 15px;
+        color: #7E7E7E;
+
+    }
+}

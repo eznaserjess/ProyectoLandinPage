@@ -1,0 +1,134 @@
+.secciontotal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+    .contenido {
+    display: grid;
+    padding-right: 50px;
+
+    .botones {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        align-items: center;
+        margin-bottom: -110px;
+        padding-left: 125px;
+
+    
+
+        .botonmedio {
+            background-color: transparent;
+            border-radius: 40px;
+            height: fit-content;
+            font-size: 20px;
+            font-weight: 45;
+            padding: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .direcciones {
+            background-color: transparent;
+            border: none;
+            font-size: 18px;
+            font-family: Brandon_reg;
+            font-weight: 45;
+
+
+        }
+
+        .prev {
+            color: #B4B7B7;
+        }
+
+        .next {
+            color: #DF991B;
+        }
+        
+    }
+
+    .textoscontenido{
+        text-align: right;
+        margin-left: 30px;
+
+        h1 {
+            color: #DF991B;
+            font-size: 40px;
+            font-weight: 45;
+            font-family: PFRegalDisplayPro-Regular;
+        }
+
+        h2 {
+            color: black;
+            font-size: 70px;
+            font-weight: 45;
+            font-family: PFRegalDisplayPro-Regular;
+        }
+    }
+    }
+
+    .galeria1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 8px;
+
+        .primera {
+            grid-column:span 2;
+        }
+
+        .ultimas{
+            grid-column: span 5;
+            position: relative;
+
+            .textos {
+                transform: translateY(-100%);
+                position: absolute;
+                width: 100%;
+                font-family: PFRegalDisplayPro-Regular;
+                padding-left: 28px;
+                
+            
+            }
+
+            .tamaño {
+                font-size: 25px;
+                margin-top: 30px;
+            }
+
+            .alto {
+                font-size: 35px;
+                margin-bottom: 20px;
+            
+            }
+
+            .gris {
+                color: #464547;
+                margin-left: 50px;
+            }
+
+        }   
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .textosUno {
+            color: white;
+            font-weight: 45;
+
+
+        }
+
+        .textosDos {
+            color: black;
+            background-color: white;
+            font-weight: 45;
+        }
+
+    }
+}

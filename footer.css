@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Brandon_reg;
+    src: url(Font/Brandon_reg.otf);
+
+
+}
+footer {
+    width: 100%;
+    padding: 0;
+    background-color: black;
+    margin-top: 170px;
+
+.negro {
+    color: white;
+    display: grid;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 30px;
+
+    .enlaces {
+        display: grid;
+        grid-template-columns: 1.8fr 1fr 1fr 1fr;
+        font-size: 17px;
+
+        .primera {
+            align-self: self-end;
+            font-size: 30px;
+            font-family: Brandon_reg;
+            color: #B4B7B7;
+            padding-left: 70px;
+        }
+
+        .segunda {
+            align-self: center;
+            font-family: Brandon_reg;
+            font-size: 30px;
+            color: #B4B7B7;
+        }
+
+        .medio {
+            justify-self: center;
+            font-family: Brandon_reg;
+            font-size: 30px;
+        }
+
+        .tercera {
+            align-self: self-end;
+            font-family: Brandon_reg;
+            font-size: 30px;
+            color: #B4B7B7;
+
+            #otrotexto{
+                display: none;
+            }
+
+            .blanco{
+                color: white;
+            }
+            
+            #separado {
+                margin-top: 25px;
+            }
+        }
+
+        .ultima {
+            text-align: right;
+            font-size: 30px;
+            align-self: self-end;
+            color: #B4B7B7;
+            padding-right: 70px;
+
+            .callcenter{
+                font-family: PFRegalDisplayPro-Regular;
+            }
+
+            #espacio{
+                margin-top: 10px;
+            }
+
+            .tamaño{
+                font-size: 40px;
+                font-family: PFRegalDisplayPro-Regular;
+                color: white;
+            }
+        }
+
+        ul {
+            text-decoration: none;
+
+            li{
+                list-style: none;
+            }
+        }
+
+    }
+
+    .copy {
+        border-top: solid 1.5px white;
+        font-size: 20px;
+
+        p{
+            text-align: center;
+            margin: 20px 0;
+        }
+    }
+}
+
+.gris {
+    background-color: #26282B;
+    height: auto;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 85px;
+    margin-right: 50px;
+
+    .segundafooter {
+        display: grid;
+        padding: 40px;
+    
+        input {
+        background-color: transparent;
+        font-size: 20px;
+        font-family: Brandon_reg;
+        border: solid 1px #7E7E7E;
+        border-radius: 100px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        }
+
+        button {
+            background-color: transparent;
+            border: solid 1px #DF991B;
+            color: #DF991B;
+            font-family: Brandon_reg;
+            font-size: 30px;
+            font-weight: 390px;
+            border-radius: 100px;
+            width: 60%;
+            justify-self: end;
+            margin-top: 20px;
+            text-align: center;
+            padding: 5px 75px;
+            align-self: center;
+            }
+
+        p {
+            margin-left: 30px;
+            color: white;
+            font-size: 25px;
+            font-family: Brandon_reg;
+
+        }
+        
+    }
+
+    }
+
+    #textfooter {
+        font-size: 39px;
+        color: white;
+        font-family: PFRegalDisplayPro-Regular;
+        margin-left: 70px;
+    
+
+        span {
+            font-size: 30px;
+            font-family: PFRegalDisplayPro-Regular;
+            color: #DF991B;
+
+        }
+    }
+
+    }
