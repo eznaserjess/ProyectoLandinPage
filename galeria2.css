@@ -6,6 +6,10 @@ html, body {
 
 .titulosantesdegaleria2 {
     text-align: center;
+    .titulomobile {
+        display: none;
+    }
+    
 
     .tituloUno {
         font-size: 40px;
@@ -34,7 +38,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    padding-right: 130px;
+    padding-right: 118px;
     margin-bottom: 50px;
 
     img {
@@ -44,24 +48,81 @@ html, body {
 
     .tamaño1 {
 
-        font-size: 21px;
+        font-size: 18px;
         font-weight: 45;
         font-family: PFRegalDisplayPro-Regular;
         color: #464547;
-        padding-left: 30px;
+        padding-left: 25px;
         margin-top: 35px;
         background-color: white;
     }  
     
     .tamaño2 {
-        font-size: 31px;
+        font-size:30px;
         font-weight: 45;
         font-family: PFRegalDisplayPro-Regular;
-        padding-left: 30px;
+        padding-left: 25px;
         margin-bottom: 35px;
         background-color: white;
 
     }
 
+}
+
+@media (max-width:1034px) {
+
+    .titulosantesdegaleria2 {
+        .tituloUno {
+            font-size: 30px;
+        }
+        .tituloDos {
+            font-size: 70px;
+        }
+    }
+}
+
+@media (max-width:801px) {
+    .SeccionPrincipal img.cuatro,
+    .SeccionPrincipal img.cinco,
+    .SeccionPrincipal img.seis,
+    .SeccionPrincipal img.siete,
+    .SeccionPrincipal img.ocho {
+        display: none;
+    }
     
+    .SeccionPrincipal {
+        padding-right: 40px;
+        margin-left: 0px;
+        margin-bottom: -190px;
+
+    } 
+
+    .titulosantesdegaleria2 {
+        .titulomobile {
+            display: block;
+            font-size: 30px;
+            color: #DF991B;
+            font-family: PFRegalDisplayPro-Regular;
+            text-align: start;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .tituloUno {
+            display: none;
+        }
+        .tituloDos {
+            font-size: 45px;
+            text-align: start;
+            margin-bottom: -50px;
+        }
+    }
+    .secciontotal {
+        .galeria1 {
+            hi,h2 {
+                display: none;
+            }
+            grid-template-columns: 1fr 1fr 1fr
+        }
+    }
+        
 }

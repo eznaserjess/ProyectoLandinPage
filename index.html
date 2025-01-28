@@ -24,7 +24,8 @@
             <!--Logo-->
             <!--Celda 1-->
             <div> <!--Contenedor Celda 1-->
-                <img src="ImgLandinPage/Logo.png" alt="" id="logo">
+                <img src="ImgLandinPage/Logo.png" alt="" id="logoprincipal">
+                <img src="ImgLandinPage/logomobile.png" alt="" id="logomobile">
             </div>
 
             <!--Idiomas y Menu-->
@@ -50,6 +51,7 @@
     
     <!--Imagen de Fondo-->
         <img id="imgprincipal" src="ImgLandinPage/ImagenPrincipal.png" alt="">
+        <img id="imgmobile" src="ImgLandinPage/ImgFondo.jpg" alt="">
 
     <!--Titulos Fondo-->
     <div id="titulos">
@@ -58,9 +60,12 @@
             <img class="lupa" src="ImgLandinPage/Lupa.png" alt="">
         </div>
         
-        <h2 id="Uno">Luxury</h2>
-        <h3 id="Dos">Real Estate</h3>
-        <button id="button">View all properties</button>
+        <div class="botton1">
+            <h2 id="Uno">Luxury</h2>
+            <h3 id="Dos">Real Estate</h3>
+            <button id="button">View all properties</button>
+        </div>
+        
     </div>
 
 
@@ -76,8 +81,18 @@
     </div>
 
  <!--Empieza Galeria1-->
-    
- <div class="secciontotal"> <!--Contenedor General-->
+<div class="galeria1mobile">
+    <div class="flechanaranja">
+        <img src="ImgLandinPage/FlechaNaranja.png" alt="">
+    </div>
+
+    <div class="titulomobile1">
+        <p class="titulomobile">View all properties</p>
+    </div>
+</div>
+
+
+<div class="secciontotal"> <!--Contenedor General-->
 
     <!--Contenedor General se divide en 2-->
 
@@ -85,13 +100,13 @@
     <div class="galeria1"> <!--Galeria1 se divide en 3-->
     
         <!--Primera-->
-        <div class="primera"> 
-            <img src="ImgLandinPage/ImagenPrincipal.png" alt="">
+        <div class="propiedades primera"> 
+            <img class="eliminar" src="ImgLandinPage/Imagen3.jpg" alt="">
         </div>
 
         <!--Segunda-->
-        <div class="segunda ultimas"> 
-            <img src="ImgLandinPage/Imagen2.jpg" alt="">
+        <div class="propiedades segunda ultimas"> 
+            <img class="eliminar" src="ImgLandinPage/Imagen2.jpg" alt="">
 
             <div class="textos textosUno"> <!--Textos Imagen2-->
                 <h1 class="tamaño">England</h1>
@@ -100,8 +115,8 @@
         </div>
 
         <!--Tercera-->
-        <div class="tercera ultimas">
-            <img src="ImgLandinPage/Imagen3.jpg" alt="">
+        <div class="propiedades tercera ultimas">
+            <img id="imagen3" src="ImgLandinPage/Imagen3.jpg" alt="">
 
             <div class="textos textosDos"> <!--Textos Imagen3-->
             <h1 class="tamaño gris">France</h1>
@@ -118,20 +133,19 @@
             <h1>Worldwide gallery</h1>
             <h2>Properties for sale</h2>
         </div>
-        <div class="botones">
-            <button class="direcciones prev">PREV</button>
-            <button class="botonmedio">View all properties</button>
-            <button class="direcciones next">NEXT</button>
-            
+            <div class="botones">
+                <button class="direcciones prev">PREV</button>
+                <button class="botonmedio">View all properties</button>
+                <button class="direcciones next">NEXT</button>
+            </div>
         </div>
 
     </div>
 
-</div>
-
     <!--Titulos antes de Galeria2-->
     <div class="titulosantesdegaleria2">
         <p class="tituloUno">Luxury properties</p>
+        <p class="titulomobile">Worldwide gallery</p>
         <p class="tituloDos">Developments</p>
     </div>
 
@@ -147,7 +161,7 @@
         
         <!--Imagen2-->
         <div>
-            <img class="imagen" src="ImgLandinPage/Galeria2Imag2.jpg" alt="">
+            <img class="imagenespacio" src="ImgLandinPage/Galeria2Imag2.jpg" alt="">
             <h1 class="tamaño1">Indigo</h1>
             <h2 class="tamaño2">Vero Beach</h2>
 
@@ -163,35 +177,35 @@
 
         <!--Imagen4-->
         <div>
-            <img class="imagen" src="ImgLandinPage/Galeria2Imag4.jpg" alt="">
+            <img class="cuatro" src="ImgLandinPage/Galeria2Imag4.jpg" alt="">
             <h1 class="tamaño1">St. Regis - The Astor Tower</h1>
             <h2 class="tamaño2">Brickell, Miami</h2>
         </div>
 
         <!--Imagen5-->
         <div>
-            <img src="ImgLandinPage/Galeria2Img5.jpg" alt="">
+            <img class="cinco" src="ImgLandinPage/Galeria2Img5.jpg" alt="">
             <h1 class="tamaño1">Giralda Place</h1>
             <h2 class="tamaño2">Coral Gables</h2>
         </div>
 
         <!--Imagen6-->
         <div>
-            <img src="ImgLandinPage/Galeria2img6.jpg" alt="">
+            <img class="seis" src="ImgLandinPage/Galeria2img6.jpg" alt="">
             <h1 class="tamaño1">St. Regis - The William Tower</h1>
             <h2 class="tamaño2">Brickell, Miami</h2>
         </div>
 
         <!--Imagen7-->
         <div>
-            <img src="ImgLandinPage/Galeria2Img7.jpg" alt="">
+            <img class="siete" src="ImgLandinPage/Galeria2Img7.jpg" alt="">
             <h1 class="tamaño1">Solterre at Cockleshell Bay</h1>
             <h2 class="tamaño2">St. Kitts and nevis</h2>
         </div>
 
         <!--Imagen8-->
         <div>
-            <img src="ImgLandinPage/Galeria2Img8.jpg" alt="">
+            <img class="ocho" src="ImgLandinPage/Galeria2Img8.jpg" alt="">
             <h1 class="tamaño1">Urbin</h1>
             <h2 class="tamaño2">Coconut Grove</h2>
         </div>
@@ -212,7 +226,7 @@
             <div class="segundafooter">
 
                 <p>Name:</p>
-                <input type="Email" placeholder="Ex. name@gmail.com">
+                <input id="correo" type="email" placeholder="Ex. name@gmail.com">
                 <button>Submit</button>
             </div>
         </div>
